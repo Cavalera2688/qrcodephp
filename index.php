@@ -65,9 +65,11 @@
          
             // menampilkan qrcode 
             echo '<img src="'.$penyimpanan.$header.'.png">';
+            echo '<br><a href="'.$penyimpanan.$header.'.png" download="'.$header.'.png">Download QR Code</a>';
         
         }
         ?>
+
     </div>
 
 </body>
